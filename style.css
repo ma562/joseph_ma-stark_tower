@@ -115,13 +115,13 @@
 	justify-content: space-between;
 	top: 100px;
 	position: relative;
-/*	background: green;*/
 }
 .pic {
 	border-radius: 30px;
 }
 
 .roof {
+	left: 2%;
 	display: flex;
 	width: 20%;
 	position: relative;
@@ -137,8 +137,31 @@
 	display: flex;
 	width: 35%;
 	position: relative;
+	right: 2%;
 }
 
+.bottom_info {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: space-between;
+	top: 100px;
+	position: relative;
+}
+
+.main_body {
+	left: 2%;
+	display: flex;
+	width: 25%;
+	position: relative;
+}
+
+.bottom_base {
+	right: 2%;
+	display: flex;
+	width: 70%;
+	position: relative;
+}
 
 
 /*mobile version*/
@@ -196,7 +219,10 @@
 	.text {
 		font-size: 18px;
 	}
-	.roof, .circ_balc, .stark_display {
+	.roof, .circ_balc, .stark_display, .main_body, .bottom_base {
+		right: 0%;
+		left: 0%;
 		flex: 100%;
+		margin-bottom: 10px;
 	}
 }
