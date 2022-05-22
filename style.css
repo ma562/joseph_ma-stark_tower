@@ -41,12 +41,6 @@
 	font-weight: 600;
 }
 
-/*.navbar .logo a span{
-	color: #ffcb05;
-	transition: all 0.3s ease;
-}
-*/
-
 .navbar .menu li{
 	list-style: none;
 	display: inline-block;
@@ -57,21 +51,10 @@
 	font-size: 18px;
 	font-weight: 500;
 	margin-left: 25px;
-	transition: color 0.3s ease;
 }
 
-/*.navbar .menu li a:hover{
-	color: #ffcb05;
-}*/
-
-.navbar.sticky .menu li a:hover {
-	color: #fff;
-}
 
 .top_info {
-/*	display: flex;
-	flex-direction: row;
-*/
 	display: flex;
 	flex-wrap: wrap;
 	align-content: center;
@@ -95,7 +78,6 @@
 .information{
 	font-family: 'Poppins', sans-serif;
 	color: #00274c;
-	/*left: 3%;*/
 	width: 35%;
 	margin-right: 20px;
 	text-align: justify;
