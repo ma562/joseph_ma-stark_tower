@@ -41,15 +41,11 @@
 	font-weight: 600;
 }
 
-.navbar .logo a span{
+/*.navbar .logo a span{
 	color: #ffcb05;
 	transition: all 0.3s ease;
 }
-
-
-.navbar.sticky .logo a span {
-	color: #fff;
-}
+*/
 
 .navbar .menu li{
 	list-style: none;
@@ -115,9 +111,9 @@
 
 /*mobile version*/
 @media (max-width: 947px){
-	.top_info {
+/*	.top_info {
 		top: 110px;
-	}
+	}*/
 	.vid1 {
 		flex: 100%;
 		width: 90%;
@@ -145,6 +141,10 @@
 
 }
 @media (max-width: 500px) {
+	.navbar .menu li a{
+		font-size: 12px;
+
+	}
 
 	.vid1 {
 		flex: 100%;
