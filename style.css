@@ -108,6 +108,39 @@
 	margin-bottom: 10px;
 }
 
+.mid_info {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: space-between;
+	top: 100px;
+	position: relative;
+/*	background: green;*/
+}
+
+.pic {
+	border-radius: 30px;
+}
+
+.roof {
+	display: flex;
+	width: 20%;
+	position: relative;
+}
+
+.circ_balc {
+	display: flex;
+	width: 35%;
+	position: relative;
+}
+
+.stark_display {
+	display: flex;
+	width: 35%;
+	position: relative;
+}
+
+
 
 /*mobile version*/
 @media (max-width: 947px){
@@ -165,5 +198,4 @@
 	.text {
 		font-size: 18px;
 	}
-
 }
