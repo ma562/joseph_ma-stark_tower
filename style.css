@@ -196,6 +196,9 @@
 
 }
 @media (max-width: 500px) {
+	.top_info {
+		top: 80px;
+	}
 
 	.navbar .logo a{
 		color: #fff;
