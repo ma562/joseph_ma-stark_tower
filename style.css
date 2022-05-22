@@ -92,7 +92,6 @@
 	text-align: center;
 }
 
-
 .information{
 	font-family: 'Poppins', sans-serif;
 	color: #00274c;
@@ -163,13 +162,46 @@
 	position: relative;
 }
 
+.final_product {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: space-between;
+	top: 100px;
+	position: relative;
+}
+
+.final {
+	left: 2%;
+	display: flex;
+	width: 20%;
+	position: relative;
+}
+
+.printed {
+	display: flex;
+	width: 20%;
+	position: relative
+}
+
+.vid2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	right: 2%;
+	width: 55%;
+	background: #00274c;
+	border-radius: 20px;
+	text-align: center;
+}
 
 /*mobile version*/
 @media (max-width: 947px){
 /*	.top_info {
 		top: 110px;
 	}*/
-	.vid1 {
+	.vid1, .vid2 {
 		flex: 100%;
 		width: 90%;
 		left: 0%;
@@ -179,11 +211,21 @@
 		flex: 100%;
 		font-size: 17px;
 	}
+	.final {
+		width: 47%;
+		left: 2%;
+		margin-bottom: 10px;
+	}
+	.printed{
+		width: 47%;
+		right: 2%;
+		margin-bottom: 10px;
+	}
 }
 
 
 @media (max-width: 690px) {
-	.vid1 {
+	.vid1, .vid2 {
 		flex: 100%;
 		width: 90%;
 		left: 0%;
@@ -193,7 +235,6 @@
 		flex: 100%;
 		font-size: 15px;
 	}
-
 }
 @media (max-width: 500px) {
 	.top_info {
@@ -209,7 +250,7 @@
 		font-size: 12px;
 
 	}
-	.vid1 {
+	.vid1, .vid2 {
 		flex: 100%;
 		width: 90%;
 		left: 0%;
@@ -222,7 +263,7 @@
 	.text {
 		font-size: 18px;
 	}
-	.roof, .circ_balc, .stark_display, .main_body, .bottom_base {
+	.roof, .circ_balc, .stark_display, .main_body, .bottom_base , .final, .printed{
 		right: 0%;
 		left: 0%;
 		flex: 100%;
