@@ -117,7 +117,6 @@
 	position: relative;
 /*	background: green;*/
 }
-
 .pic {
 	border-radius: 30px;
 }
@@ -184,7 +183,6 @@
 		font-size: 12px;
 
 	}
-
 	.vid1 {
 		flex: 100%;
 		width: 90%;
@@ -197,5 +195,8 @@
 	}
 	.text {
 		font-size: 18px;
+	}
+	.roof, .circ_balc, .stark_display {
+		flex: 100%;
 	}
 }
