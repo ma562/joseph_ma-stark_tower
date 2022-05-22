@@ -85,14 +85,17 @@
 }
 
 .vid1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	position: relative;
 	left: 2%;
 	width: 60%;
-	height: 480px;
 	background: #00274c;
 	border-radius: 20px;
 	text-align: center;
 }
+
 
 .information{
 	font-family: 'Poppins', sans-serif;
