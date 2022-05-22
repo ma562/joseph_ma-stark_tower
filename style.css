@@ -111,3 +111,51 @@
 	font-weight: 600;
 	margin-bottom: 10px;
 }
+
+
+/*mobile version*/
+@media (max-width: 947px){
+	.vid1 {
+		flex: 100%;
+		width: 90%;
+		left: 0%;
+
+	}
+	.information {
+		flex: 100%;
+		font-size: 17px;
+	}
+
+}
+
+
+@media (max-width: 690px) {
+	.vid1 {
+		flex: 100%;
+		width: 90%;
+		left: 0%;
+
+	}
+	.information {
+		flex: 100%;
+		font-size: 15px;
+	}
+
+}
+@media (max-width: 500px) {
+
+	.vid1 {
+		flex: 100%;
+		width: 90%;
+		left: 0%;
+
+	}
+	.information {
+		flex: 100%;
+		font-size: 12px;
+	}
+	.text {
+		font-size: 18px;
+	}
+
+}
