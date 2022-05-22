@@ -141,6 +141,12 @@
 
 }
 @media (max-width: 500px) {
+
+	.navbar .logo a{
+		color: #fff;
+		font-size: 20px;
+		font-weight: 600;
+	}
 	.navbar .menu li a{
 		font-size: 12px;
 
