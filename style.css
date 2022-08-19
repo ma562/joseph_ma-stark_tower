@@ -189,6 +189,9 @@
 		left: 0%;
 
 	}
+	.navbar .menu li a{
+		font-size: 12px;
+	}
 	.information {
 		flex: 100%;
 		font-size: 17px;
@@ -205,6 +208,14 @@
 	}
 }
 
+@media (max-width: 750px) {
+	.navbar .logo a{
+		color: #fff;
+		font-size: 16px;
+		font-weight: 600;
+	}
+
+}
 
 @media (max-width: 690px) {
 	.vid1, .vid2 {
@@ -223,15 +234,6 @@
 		top: 80px;
 	}
 
-	.navbar .logo a{
-		color: #fff;
-		font-size: 20px;
-		font-weight: 600;
-	}
-	.navbar .menu li a{
-		font-size: 12px;
-
-	}
 	.vid1, .vid2 {
 		flex: 100%;
 		width: 90%;
@@ -252,3 +254,4 @@
 		margin-bottom: 10px;
 	}
 }
+
